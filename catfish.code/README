@@ -1,0 +1,31 @@
+AUTHORS
+  Maxim B. Kuznetsov -- Programming.
+  Alex M. Nesterenko -- Code review.
+
+DESCRIPTION
+ 
+  Program numerically solves PDE of Adsorption-modified Gierer-Meinhardt model
+  with Neuman boundary conditions. 
+
+  Reaction and diffusion terms are computed sequentially. We use Runge-Kutta
+  scheme for the reaction part. ADI technique coupled with flux sweeping algorithm 
+  is used for solving two-dimensional diffusion problem.
+
+  For the details see (Nesterenko et. al, 2016 [in progress]). Please cite
+  this paper if you use the code.
+
+ 
+INSTALLATION NOTES
+
+  Just run make. No special libraries are required.
+
+  The code can be compiled under any POSIX compiler. If using ICC instead of GCC
+  one should modify flags in the Makefile. This code can also be compiled under
+  win32/win64 environment (MINGW-GCC).
+
+CONTACT US
+
+  In case of problem please don't hesitate to contact Maxim Kuznetsov 
+  Email: kuznetsovmb (AT) mail (DOT) ru
+  or Alex Nesterenko
+  Email: comconadin (AT) gmail (DOT) com
