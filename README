@@ -1,6 +1,12 @@
-
+== Description ==
 Repository contains codes for solving reaction-diffusion ODE with ADI
 technique. Complete description is coming soon after publication will be
 submitted.
 
-license: LGPL (see LICENSE.txt)
+== Citation ==
+A. Nesterenko, et al. (2017). Morphogene adsorption as a Turing instability regulator: 
+Theoretical analysis and possible applications in multicellular embryonic systems. 
+PLOS ONE, 12(2), e0171212. https://doi.org/10.1371/journal.pone.0171212
+
+== License ==
+LGPL (see LICENSE.txt)
